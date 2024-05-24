@@ -1,0 +1,45 @@
+:root {
+    --left-background-color: #b2d8d8;
+}
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#left-wrapper, #right-wrapper {
+    width: 50%;
+}
+
+#left-wrapper {
+    display: grid;
+    place-content: center;
+    background-color: var(--left-background-color);
+    text-align: center;
+}
+
+.left h1{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#right-wrapper {
+    display: grid;
+    place-content: center;
+    /* background-color: var(--left-background-color); */
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
